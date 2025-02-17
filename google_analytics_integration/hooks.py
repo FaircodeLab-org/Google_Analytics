@@ -5,6 +5,15 @@ app_description = "Google Analytics Integration"
 app_email = "reddysrivinayofficial@gmail.com"
 app_license = "mit"
 
+
+
+scheduler_events = {
+    "cron": {
+        "*/5 * * * *": [
+            "google_analytics_integration.api.fetch_realtime_visitor_location"
+        ]
+    }
+}
 # Apps
 # ------------------
 
