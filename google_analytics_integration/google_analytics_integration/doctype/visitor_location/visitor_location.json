@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": ".#####.",
  "creation": "2025-02-03 23:00:31.169557",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -40,10 +41,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-04 08:53:04.679970",
+ "modified": "2025-02-19 15:25:23.796915",
  "modified_by": "Administrator",
  "module": "Google Analytics Integration",
  "name": "Visitor Location",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {

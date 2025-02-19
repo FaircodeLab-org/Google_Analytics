@@ -21,7 +21,7 @@ def fetch_realtime_visitor_location():
     client = BetaAnalyticsDataClient(credentials=credentials)
 
     # Define your GA4 Property ID
-    property_id = '476171474'  # Replace with your actual GA4 Property ID
+    property_id = '478465334'  # Replace with your actual GA4 Property ID
 
     # Build the Real-time API request
     request = RunRealtimeReportRequest(
