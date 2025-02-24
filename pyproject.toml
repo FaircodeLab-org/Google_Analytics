@@ -8,7 +8,10 @@ requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
 dependencies = [
-    # "frappe~=15.0.0" # Installed and managed by bench.
+"google-analytics-data==0.18.16",
+"google-auth==1.29.0",
+"google-auth-oauthlib==0.4.4"
+# frappe is managed by bench and need not be included here.
 ]
 
 [build-system]
